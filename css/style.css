@@ -1,0 +1,344 @@
+#div1{
+    width: 100%;
+}
+
+header{
+    display:flex;
+    justify-content: space-around;  
+    align-items: center;
+    margin-top: 20px;
+}
+
+#logo1{
+    width: 300px;
+}
+
+#selected{
+    color: aqua;
+}
+
+nav a{
+    color: grey;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+#logo2div{
+    display: flex;
+    justify-content: center;
+}
+
+#logo2{
+    height: 60px;
+    width: 60px; 
+}
+
+#para{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 30px;
+}
+
+#wewant{
+    display: flex;
+    justify-content: center;
+}
+
+#leftwewant{
+    height: 200px;
+    width: 420px;
+    margin-right: 20px;
+}
+
+#rightwewant{
+    height: 200px;
+    width: 420px;
+    margin-left: 20px;
+}
+
+.wewantpara{
+    font-size: 20px;
+}
+
+#main2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#patients{
+    height: 370px;
+    width: 320px;
+    background-color: aqua;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+#doctors{
+    height: 370px;
+    width: 320px;
+    background-color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+#clinics{
+    height: 370px;
+    width: 320px;
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+
+#main2imgpadding{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#patientspadding{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    font-size: 40px;
+}
+
+#findadoctor{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+#selectbox{
+    padding-left: 40px;
+}
+
+#docimgpadding{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#doctorspadding{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    font-size: 40px;
+}
+
+#savetime{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+#selectbox{
+    padding-left: 40px;
+}
+
+#clinicimgpadding{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#clinicspadding{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    font-size: 40px;
+}
+
+#deliver{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+#selectbox1{
+    padding-left: 40px;
+}
+
+#selectbox2{
+    padding-left: 40px;
+}
+
+#main3{
+    display: flex;
+    justify-content: center;
+}
+
+#globalleft{
+    height: 300px;
+    width: 400px;
+    margin-right: 15px;
+}
+
+#logoright{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    margin-left: 15px;
+}
+
+#global{
+    color: aquamarine;
+}
+
+#logorow1{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#znany{
+    width: 80px;
+    margin-right: 20px;
+}
+
+#doctoralia{
+    width: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#miodottore{
+    width: 80px;
+    margin-left: 20px;
+}
+
+#logorow2{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#doktor{
+    width: 80px;
+    margin-right: 20px;
+}
+
+#znam2{
+    width: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#jameda{
+    width: 80px;
+    margin-left: 20px;
+}
+
+#logorow3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#tuotempo{
+    width: 80px;
+    margin-right: 20px;
+}
+
+#gipo{
+    width: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#cliniccloud{
+    width: 80px;
+    margin-left: 20px;
+}
+
+#logorow4{
+    display: flex;
+}
+
+#feegow{
+    width: 80px;
+}
+
+#div2{
+    width: 100%;
+    height: 1000px;
+    background-color: aquamarine;
+}
+
+#platform{
+    display: flex;
+    justify-content: center;
+}
+
+#leftplatform{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 420px;
+    margin-right: 20px;
+    background-color: red;
+}
+
+h2{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color: aquamarine;
+}
+
+#wework{
+    margin-bottom: 70px;
+    color: grey;
+}
+
+#croppedlogo{
+    width: 350px;
+}
+
+#rightplatform{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 420px;
+    margin-left: 20px;
+    background-color: blue;
+}
+
+#firstdiv{
+    display: flex;
+}
+
+#leader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+#flag{
+    height: 30px;
+    padding: 20px;
+}
+
+#leadh3{
+    color: aquamarine;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+#pays{
+    color: grey;
+    width: 80%;
+    font-size: 12px;
+}
