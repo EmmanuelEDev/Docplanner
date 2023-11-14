@@ -1,3 +1,8 @@
+body{
+    border: 0;
+    margin: 0;
+}
+
 #div1{
     width: 100%;
 }
@@ -116,8 +121,12 @@ nav{
     font-size: 25px;
 }
 
-#selectbox{
+.selectbox{
     padding-left: 40px;
+}
+
+.button{
+    text-decoration: none;
 }
 
 #docimgpadding{
@@ -140,10 +149,6 @@ nav{
     font-size: 25px;
 }
 
-#selectbox{
-    padding-left: 40px;
-}
-
 #clinicimgpadding{
     padding-left: 40px;
     padding-top: 40px;
@@ -161,14 +166,6 @@ nav{
     padding-right: 40px;
     color: white;
     font-size: 25px;
-}
-
-#selectbox1{
-    padding-left: 40px;
-}
-
-#selectbox2{
-    padding-left: 40px;
 }
 
 #main3{
@@ -268,7 +265,7 @@ nav{
 
 #div2{
     width: 100%;
-    height: 1000px;
+    height: 646px;
     background-color: aquamarine;
 }
 
@@ -280,16 +277,15 @@ nav{
 #leftplatform{
     display: flex;
     flex-direction: column;
-    height: 700px;
-    width: 420px;
+    height: 646px;
+    width: 550px;
     margin-right: 20px;
-    background-color: red;
 }
 
 h2{
     margin-top: 70px;
     margin-bottom: 20px;
-    color: aquamarine;
+    color: #00b39b;
 }
 
 #wework{
@@ -298,20 +294,22 @@ h2{
 }
 
 #croppedlogo{
-    width: 350px;
+    width: 520px;
 }
 
 #rightplatform{
     display: flex;
-    flex-direction: column;
-    height: 500px;
-    width: 420px;
+    height: 620px;
+    width: 550px;
     margin-left: 20px;
-    background-color: blue;
 }
 
-#firstdiv{
+#rightplatform1{
     display: flex;
+    flex-direction: column;
+    height: 610px;
+    width: 250px;
+    margin-right: 20px;
 }
 
 #leader{
@@ -319,26 +317,245 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 250px;
     width: 200px;
     background-color: white;
+    margin-top: 50px;
     margin-left: 10px;
-    margin-top: 70px;
 }
 
-#flag{
-    height: 30px;
-    padding: 20px;
+.divimage{
+    width: 30px;
+    margin-top: 20px;
 }
 
 #leadh3{
     color: aquamarine;
-    padding-bottom: 20px;
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #pays{
     color: grey;
-    width: 80%;
     font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#mil90{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#patients90m{
+    color: aquamarine;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+#visit{
+    color: grey;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#rightplatform2{
+    display: flex;
+    flex-direction: column;
+    height: 580px;
+    width: 250px;
+}
+
+#appoint{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#mil15{
+    color: aquamarine;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#lastmonth{
+    color: grey;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#lesmedecins{
+    color: aquamarine;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+#trust{
+    color: grey;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#div3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#improve{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lives{
+    color: chartreuse;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+#change{
+    color: chartreuse;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+#div4{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#cities1{
+    width: 1000px;
+    height: 335px;
+    margin-top: 130px;
+    display: flex;
+}
+
+.villes{
+    width: 312px;
+    height: 320px;
+    margin: 10px;
+}
+
+.buttons{
+    width: 312px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.element1{
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.element2{
+    margin-right: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.rioelement1{
+    margin-left: 15px;
+    margin-right: 70px;
+}
+
+#cities2{
+    width: 1000px;
+    height: 335px;
+    display: flex;
+}
+
+#cities3{
+    width: 1000px;
+    height: 335px;
+    display: flex;
+}
+
+#div5{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+#sounds{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 120px;
+}
+
+#join{
+    font-size: 25px;
+}
+
+#footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#weare{
+    font-size: 13px;
+}
+
+#thissite{
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+#url{
+    margin-top: 0;
+    font-size: 13px;
+}
+
+button{
+    border: none;
 }
